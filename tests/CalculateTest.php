@@ -53,5 +53,10 @@ final class CalculateTest extends TestCase{
 		$calculate=new Calculate();
 		$this->assertEquals(  $calculate->add(3,4), 7);
 	}
+
+	public function testaSuma2():void{
+		$calculate=new Calculate();
+		$this->assertEquals(  $calculate->add(9,4), 13);
+	}
 }
 ?>
